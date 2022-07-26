@@ -1,0 +1,26 @@
+@media screen and (max-width: 1499px){
+
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 650px 1fr min-content;
+    row-gap: 20px;
+    height: auto;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .pokemons {
+    background-color: none;
+    height: auto;
+  }
+
+  .info-header {
+    grid-template-columns: 5% 35% 20% 20% 20%;
+  }
+
+  .info-moves {
+    grid-template-columns: 5% 35% 20% 20% 20%;
+  }
+}
